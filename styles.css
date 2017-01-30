@@ -1,0 +1,136 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, h1, h2, h3, h4, p,
+a, img, ol, ul, li, form, label, caption, 
+figure, footer, header, nav, section {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1.4;
+	font-family:Arial, Helvetica, sans-serif;
+}
+ol, ul {
+	list-style: none;
+}
+
+/* micro clear fix */
+.grouping:before,
+.grouping:after {
+	content:" ";
+	display:table;
+}
+
+.grouping:after {
+	clear:both;
+}
+
+img, iframe, video, object {
+	max-width: 100%;
+	height: auto;
+	display: block;
+}
+
+
+/***********/
+/* CONTENT */
+/***********/
+
+html, body {
+	background-color: #C9FDD7; /*mint*/
+	color: #8C7676; /*brown*/
+	font-family: 'Oxygen', sans-serif;
+}
+
+.links {
+	color: inherit;
+}
+
+.highlight {
+	color: #8C7676; /*brown*/
+	font-family: 'Rufina', serif;
+}
+
+.wrapper {
+	height: 100vh;
+	overflow-y: scroll;
+	margin: 0 auto;
+	position: relative;
+}
+
+.title {
+	margin: 0 auto;
+	padding: 10px;
+	max-width: 75%;
+	color: #8C7676; /*brown*/
+	font-family: 'Rufina', serif;
+}
+
+h1 {
+	text-align: center;
+	font-size: 1.5em;
+	font-weight: 700;
+}
+
+h2 {
+	text-align: right;
+	font-style: italic;
+}
+
+footer {
+	width: 100%;
+	height: auto;
+	position: absolute;
+	bottom: 0;
+	background-color: #8C7676; /*brown*/
+	color: #FDFFE7; /*cream*/
+}
+
+.copy {
+	text-align: center;
+	font-size: 0.9em;
+}
+
+
+/***********/
+/** FORM  **/
+/***********/
+
+#searchForm {
+	display: block;
+	margin: 0 auto;
+}
+
+label,
+button {
+	display: inline-block;
+	float: left;
+	height: 30px;
+	width: 30px;
+	margin: 0;
+	font-size: 1.2em;
+	background-color: #8C7676; /*brown*/
+	color: #FDFFE7; /*cream*/
+}
+
+input {
+	display: inline-block;
+	float: left;
+	height: 30px;
+	margin: 0;
+	font-size: 1.2em;
+	border: 1px solid #99F0CA; /*green*/
+	color: #8C7676; /*brown*/
+}
