@@ -22,24 +22,34 @@
 </head>
 <body>
 <div class="wrapper">
-	<div class="title">
-		<h1>Wikipedia Viewer</h1>
-		<h2>for all your research needs</h2>
+	<div class="flex">
+		<div class="left">
+			<div class="title">
+				<h1>Wikipedia Viewer</h1>
+				<h2>for all your research needs</h2>
+			</div>
+			<div id="searchForm" class="grouping">
+				<label><i class="fa fa-pencil"></i></label>
+				<input type="text" name="searchInput">
+				<button type="submit"><i class="fa fa-search"></i></button>
+			</div>
+		</div>
+		<div class="right">
+			<div class="random">
+				<button id="random">Pick A Subject For Me<i class="fa fa-random"></i></button>
+			</div>
+			<div id="listings">
+				
+			</div>
+		</div>
 	</div>
-	<div id="searchForm" class="grouping">
-		<label><i class="fa fa-pencil"></i></label>
-		<input type="text" name="searchInput">
-		<button type="submit"><i class="fa fa-search"></i></button>
-		<button type="submit" id="random"><i class="fa fa-random"></i></button>
-	</div>
-
 	<footer>
 		<div class="copy">
 			<p>&copy Copyright <a href="http://www.21beans.com" class="links">21 Beans Web Creations</a> 2017</p>
 		</div>
 	</footer>
 </div>
-
+	
 <script type="text/javascript" src="app.js"></script>
 </body>
 </html>

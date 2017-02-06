@@ -48,12 +48,6 @@ img, iframe, video, object {
 /* CONTENT */
 /***********/
 
-html, body {
-	background-color: #C9FDD7; /*mint*/
-	color: #8C7676; /*brown*/
-	font-family: 'Oxygen', sans-serif;
-}
-
 .links {
 	color: inherit;
 }
@@ -64,10 +58,25 @@ html, body {
 }
 
 .wrapper {
-	height: 100vh;
+	min-height: 100vh;
 	overflow-y: scroll;
 	margin: 0 auto;
 	position: relative;
+}
+
+.flex {
+	display: flex;
+	flex-flow: row wrap;
+	min-height: 100vh;
+	overflow-y: scroll;
+	margin: 0 auto;
+}
+
+.left {
+	flex-basis: 50%;
+	background-color: #C9FDD7; /*mint*/
+	color: #8C7676; /*brown*/
+	font-family: 'Rufina', serif;
 }
 
 .title {
@@ -75,7 +84,6 @@ html, body {
 	padding: 10px;
 	max-width: 75%;
 	color: #8C7676; /*brown*/
-	font-family: 'Rufina', serif;
 }
 
 h1 {
@@ -89,13 +97,20 @@ h2 {
 	font-style: italic;
 }
 
+.right {
+	flex-basis: 50%;
+	background-color: #f6fcf4; /*cream*/
+	color: #8C7676; /*brown*/
+	font-family: 'Oxygen', sans-serif;
+}
+
 footer {
 	width: 100%;
 	height: auto;
 	position: absolute;
 	bottom: 0;
 	background-color: #8C7676; /*brown*/
-	color: #FDFFE7; /*cream*/
+	color: #f6fcf4; /*cream*/
 }
 
 .copy {
@@ -122,7 +137,7 @@ button {
 	margin: 0;
 	font-size: 1.2em;
 	background-color: #8C7676; /*brown*/
-	color: #FDFFE7; /*cream*/
+	color: #f6fcf4; /*cream*/
 }
 
 input {
@@ -134,3 +149,9 @@ input {
 	border: 1px solid #99F0CA; /*green*/
 	color: #8C7676; /*brown*/
 }
+
+
+/********************/
+/** MEDIA QUERIES  **/
+/********************/
+
