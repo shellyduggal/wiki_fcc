@@ -28,18 +28,34 @@
 				<h1>Wikipedia Viewer</h1>
 				<h2>for all your research needs</h2>
 			</div>
-			<div id="searchForm" class="grouping">
-				<label><i class="fa fa-pencil"></i></label>
-				<input type="text" name="searchInput">
-				<button type="submit"><i class="fa fa-search"></i></button>
-			</div>
+			<form id="searchForm" class="grouping">
+				<input type="text" name="searchInput" placeholder="I'm looking for...">
+				<button type="submit" class="search"><i class="fa fa-search"></i></button>
+			</form>
+			<button id="random" onclick="getRandom();">Random Topic <i class="fa fa-random"></i></button>
 		</div>
 		<div class="right">
-			<div class="random">
-				<button id="random">Pick A Subject For Me<i class="fa fa-random"></i></button>
-			</div>
 			<div id="listings">
-				
+				<div class="article">
+					<h3>"And harpoons sticking in near his starboard fin."</h3>
+				</div>
+				<div class="summary">
+					<p>"It was the first time in my life that I ever cruised on the Line," began the Englishman. "I was ignorant of the White Whale at that time. Well, one day we lowered for a pod of four or five whales, and my boat fastened to one of them; a regular circus horse he was, too, that went milling and milling round so, that my boat's crew could only trim dish, by sitting all their sterns on the outer gunwale. Presently up breaches from the bottom of the sea a bouncing great whale, with a milky-white head and hump, all crows' feet and wrinkles."</p>
+				</div>
+
+				<div class="article">
+					<h3>The Martians, alarmed by the approach</h3>
+				</div>
+				<div class="summary">
+					<p>The Martians, alarmed by the approach of a crowd, had killed a number of people with a quick-firing gun, so the story ran.  The telegram concluded with the words: "Formidable as they seem to be, the Martians have not moved from the pit into which they have fallen, and, indeed, seem incapable of doing so.  Probably this is due to the relative strength of the earth's gravitational energy."  On that last text their leader-writer expanded very comfortingly.</p>
+				</div>
+
+				<div class="article">
+					<h3>Picking up my sword I leaned upon it,</h3>
+				</div>
+				<div class="summary">
+					<p>Picking up my sword I leaned upon it, looking down on the dead body of my foeman, and as I thought of the battle I had just fought and won a great idea was born in my brain&mdash;the outcome of this and the suggestion that Perry had made within the city of Phutra.  If skill and science could render a comparative pygmy the master of this mighty brute, what could not the brute's fellows accomplish with the same skill and science.  Why all Pellucidar would be at their feet&mdash;and I would be their king and Dian their queen.</p>
+				</div>
 			</div>
 		</div>
 	</div>
